@@ -1,7 +1,7 @@
 REQUEST HB_CODEPAGE_UTF8
 
 FUNCTION main()
-	local cNome := "Melissa"
+	local cNome := "Melissa Andrade"
 	Local cCidade := "Santo André"
 
 	hb_cdpSelect( "UTF8" )
@@ -13,5 +13,4 @@ FUNCTION main()
 	QOut("Cidade : " +cCidade)
 	QOut("Curso : Harbour/ADVPL")
 	Qout("=======================")
-	
 RETURN NIL
