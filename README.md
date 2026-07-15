@@ -1,42 +1,37 @@
 # TOTVS-JornadaDEV (Start+)
 
-Repositório central de códigos, laboratórios de lógica e projetos práticos desenvolvidos durante a minha formação na JornadaDEV do programa Start+ da TOTVS.
+Repositório de estudos e práticas desenvolvidas durante a formação na JornadaDEV do programa Start+ da TOTVS.
 
-Este espaço reúne exercícios, estudos e implementações construídas com foco em **Prova de Trabalho** (Proof of Work), substituindo avaliações teóricas tradicionais por entregas práticas aderentes a cenários reais de mercado.
+O foco é aprendizado prático, com exercícios progressivos em xBase/AdvPL, laboratórios de lógica e evolução contínua para cenários mais próximos do ambiente corporativo.
 
-## Status da Stack e Ecossistema
+## Objetivo
 
-A jornada é baseada no universo **xBase**, uma família de tecnologias com décadas de evolução voltada à resolução de problemas de negócio e manipulação massiva de dados.
+Consolidar a evolução técnica ao longo da trilha, registrando:
 
-## Filosofia da Jornada
+- fundamentos da linguagem;
+- prática de sintaxe e estrutura de programas;
+- organização de exercícios por módulo;
+- experimentos rápidos para validação de conceitos.
 
-A proposta da JornadaDEV elimina a dependência de provas teóricas tradicionais e direciona o aprendizado para a construção real de soluções. O objetivo é formar domínio técnico por meio da prática contínua, da resolução de problemas e da entrega de aplicações alinhadas às regras de negócio do maior ERP da América Latina.
-
-## Projeto Final (TCC)
-
-O encerramento da jornada será um projeto prático final, desenvolvido para atender um cenário corporativo real. A proposta é integrar tudo o que foi aprendido ao longo da trilha, seguindo a orientação dos instrutores e aplicando a stack da forma mais fiel possível ao ambiente profissional.
-
-## Conteúdo do repositório
-
-- Laboratórios de lógica.
-- Estudos de linguagem xBase.
-- Exercícios práticos.
-- Protótipos e experimentos.
-- Materiais relacionados ao projeto final.
-
-## Estrutura atual
+## Estrutura do repositório
 
 ```text
 README.md
 _testes/
-	teste
 	teste.prg
+	variaveis.prg
+modulo-01/
+	ex01-hello.prg
+	ex02-saudacao.prg
+	ex03-apresentacao.prg
+	ex04-data-hora.prg
 ```
 
-## Objetivo
+## Organização dos estudos
 
-Este repositório serve como base de acompanhamento da evolução técnica durante a jornada, registrando aprendizado, experimentação e a construção progressiva do projeto final.
+- `_testes/`: arquivos para testes rápidos e validação de ideias.
+- `modulo-01/`: exercícios introdutórios da trilha, com foco em sintaxe, saída e manipulação básica de informações.
 
-## Observação
+## Sobre a jornada
 
-O conteúdo deste repositório vai evoluir ao longo da formação, acompanhando novas práticas, desafios e implementações da JornadaDEV Start+.
+A proposta da JornadaDEV prioriza entrega prática (proof of work), substituindo avaliações teóricas por implementação real. A cada etapa, o repositório é atualizado com novos exercícios e materiais.
