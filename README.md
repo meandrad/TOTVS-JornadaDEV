@@ -18,6 +18,7 @@ Consolidar a evolução técnica ao longo da trilha, registrando:
 ```text
 README.md
 _testes/
+	aula-02.prg
 	teste.prg
 	variaveis.prg
 modulo-01/
