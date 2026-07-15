@@ -19,4 +19,5 @@ FUNCTION main()
 	QOut("Hora : " +cHora)
 	QOut("Curso : Harbour/ADVPL")
 	Qout("=======================")
+
 RETURN NIL

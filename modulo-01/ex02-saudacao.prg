@@ -9,4 +9,5 @@ FUNCTION main()
 	QOUt("Meu nome é " +cNome)
 	QOut("Sou de " +cCidade)
 	QOut("Pronto para aprender ADVPL!")
+
 RETURN NIL
