@@ -1,4 +1,5 @@
-a.
+##a.
+
 	INICIO
 		Leia a base
 		Leia a altura
@@ -6,7 +7,8 @@ a.
 		Escreva AreaRetangulo
 	FIM
 
-b. 
+##b.
+
 	INICIO
 		Leia o número
 		Se número MOD 2 = 0
@@ -15,7 +17,8 @@ b.
 			Escreva "IMPAR"
 	FIM
 
-c.
+##c.
+
 	INICIO
 		Leia num1
 		Leia num2
