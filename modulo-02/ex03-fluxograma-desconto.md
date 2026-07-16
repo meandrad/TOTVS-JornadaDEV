@@ -1,5 +1,4 @@
 # Fluxograma
-
 ```mermaid
 flowchart TD
     A([Inicio]) --> B[/Leia o valor da compra/]
