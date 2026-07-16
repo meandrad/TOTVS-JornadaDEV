@@ -1,4 +1,4 @@
-##a.
+a.
 
 	INICIO
 		Leia a base
@@ -7,7 +7,7 @@
 		Escreva AreaRetangulo
 	FIM
 
-##b.
+b.
 
 	INICIO
 		Leia o número
@@ -17,7 +17,7 @@
 			Escreva "IMPAR"
 	FIM
 
-##c.
+c.
 
 	INICIO
 		Leia num1
