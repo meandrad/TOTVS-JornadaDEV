@@ -6,6 +6,6 @@ function main()
 	local nSalarioBruto
 	local lAtivo
 	local dDataAdmissao
-	local nCódigo
+	local nCodigo
 
 return NIL
