@@ -7,7 +7,6 @@ function main()
 
 	hb_cdpSelect("UTF8")
 
-
 	cString1 := "Harbour"
 	cString2 := "Harb"
 
