@@ -29,6 +29,6 @@ function main()
 	nNota4 = val(cEntrada)
 
 	QOut("")
-	QOut("A média ponderada do aluno é: " +alltrim(str(mediaPond(nNota1, nNota2, nNota3, nNota4))))
+	QOut("A média ponderada do aluno é: " +alltrim(str(mediaPond(nNota1, nNota2, nNota3, nNota4), 10, 2)))
 
 return NIL
