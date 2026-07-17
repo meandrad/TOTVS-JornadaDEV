@@ -40,7 +40,6 @@ Function main()
 			otherwise
 				QOut("Código inválido.")
 		endcase
-		nQtd := 0
 	enddo
 
 	if nPreco > 50
