@@ -1,3 +1,4 @@
+REQUEST HB_CODEPAGE_UTF8
 function main()
 
 	local cString1
