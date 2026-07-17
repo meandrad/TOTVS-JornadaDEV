@@ -30,7 +30,7 @@ Function main()
 		accept "Digite a quantidade do item desejado: " to cEntrada
 		nQtd = val(cEntrada)
 
-		DO CASE
+		do case
 			case nOpcao == 1
 				nPreco += 18.00 * nQtd
 			case nOpcao == 2
