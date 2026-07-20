@@ -11,7 +11,7 @@ function soma()
 	nFirstNumber := val(cInput)
 	accept "Digite o segundo número: " to cInput
 	nSecondNumber := val(cInput)
-	nResult = nFirstNumber + nSecondNumber
+	nResult := nFirstNumber + nSecondNumber
 
 return nResult
 
@@ -21,7 +21,7 @@ function subtracao()
 	nFirstNumber := val(cInput)
 	accept "Digite o segundo número: " to cInput
 	nSecondNumber := val(cInput)
-	nResult = nFirstNumber - nSecondNumber
+	nResult := nFirstNumber - nSecondNumber
 
 return nResult
 
@@ -31,7 +31,7 @@ function multiplicacao()
 	nFirstNumber := val(cInput)
 	accept "Digite o segundo número: " to cInput
 	nSecondNumber := val(cInput)
-	nResult = nFirstNumber * nSecondNumber
+	nResult := nFirstNumber * nSecondNumber
 
 return nResult
 
@@ -42,7 +42,7 @@ function potencia()
 	accept "Digite a potência do número: " to cInput
 	nSecondNumber := val(cInput)
 
-	nResult = nFirstNumber ^ nSecondNumber
+	nResult := nFirstNumber ^ nSecondNumber
 
 return nResult
 
@@ -55,10 +55,10 @@ function divisao()
 
 	if nSecondNumber == 0
 		QOut("Não é possível fazer divisão por 0")
-		break
+		return NIL
 	endif
 
-	nResult = nFirstNumber / nSecondNumber
+	nResult := nFirstNumber / nSecondNumber
 
 return nResult
 
@@ -67,7 +67,12 @@ function raiz()
 	accept "Digite o número: " to cInput
 	nFirstNumber := val(cInput)
 
-	nResult = sqrt(nFirstNumber)
+	if nFirstNumber < 0
+		QOut("Não existe raiz de número negativo")
+		return NIL
+	endif
+
+	nResult := sqrt(nFirstNumber)
 
 return nResult
 
@@ -90,24 +95,26 @@ function main()
 
 	do case
 		case cOperator == "+"
-			nResult = soma()
+			nResult := soma()
 		case cOperator == "-"
-			nResult = subtracao()
+			nResult := subtracao()
 		case cOperator == "*"
-			nResult = multiplicacao()
+			nResult := multiplicacao()
 		case cOperator == "/"
-			nResult = divisao()
+			nResult := divisao()
 		case cOperator == "^"
-			nResult = potencia()
-		case cOperator == "R"
-			nResult = raiz()
+			nResult := potencia()
+		case upper(cOperator) == "R"
+			nResult := raiz()
 		otherwise
 			QOut("Operador inválido")
 	endcase
 
-	QOUt("")
-	QOut("=== CALCULADORA ===")
-	QOut("Resultado da operação: " +alltrim(str(nResult)))
-	QOut("====================")
+	if nResult != NIL
+		QOut("")
+		QOut("=== CALCULADORA ===")
+		QOut("Resultado da operação: " +alltrim(str(nResult)))
+		QOut("====================")
+	endif
 
 return NIL
