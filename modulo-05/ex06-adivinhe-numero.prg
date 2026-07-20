@@ -37,8 +37,8 @@ function main()
 		else
 			QOut("")
 			QOut("=== JOGO DA ADVINHAÇÃO ===")
-			QOut(("Parabéns! Você acertou na " + alltrim(str(nIndex)) + "ª tentativa."))
-			QOut("O número secreto era: " +alltrim(str(nRandom)))
+			QOut("Parabéns! Você acertou na " + alltrim(str(nIndex)) + "ª tentativa.")
+			QOut("O número secreto era: " +alltrim(str(nRandom, 3)))
 			lAcertou := .T.
 			exit
 		endif
