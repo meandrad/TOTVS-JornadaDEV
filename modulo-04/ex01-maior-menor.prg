@@ -14,14 +14,12 @@ function main()
 	
 	if nA == nB
 		QOut("Números iguais")
-	else
-		if nA > nB
-			QOut("O maior número é: " +alltrim(str(nA)))
-			QOut("O menor número é: " +alltrim(str(nB)))
-		else
-			QOut("O maior número é: " +alltrim(str(nB)))
-			QOut("O menor número é: " +alltrim(str(nA)))
-		endif
+	elseif nA > nB
+		QOut("O maior número é: " +alltrim(str(nA)))
+		QOut("O menor número é: " +alltrim(str(nB)))
+	elseif nA < nB
+		QOut("O maior número é: " +alltrim(str(nB)))
+		QOut("O menor número é: " +alltrim(str(nA)))
 	endif
 
 return NIL
