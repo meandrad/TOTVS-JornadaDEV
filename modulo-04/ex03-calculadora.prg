@@ -113,7 +113,7 @@ function main()
 	if nResult != NIL
 		QOut("")
 		QOut("=== CALCULADORA ===")
-		QOut("Resultado da operação: " +alltrim(str(nResult)))
+		QOut("Resultado da operação: " +alltrim(str(nResult, 10, 2)))
 		QOut("====================")
 	endif
 
